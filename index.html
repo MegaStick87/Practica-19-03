@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Esta declaración define que el documento es de tipo HTML5 -->
+<html lang="en">
+<!-- La etiqueta <html> comienza el documento HTML. El atributo 'lang="en"' especifica que el idioma del documento es inglés -->
+
+<head>
+    <!-- La sección <head> contiene metadatos del documento que no son visibles en la página -->
+    <meta charset="UTF-8">
+    <!-- Esta etiqueta meta especifica la codificación de caracteres para el documento, UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Esta etiqueta meta controla la ventana gráfica del navegador para hacer que el diseño sea responsivo en dispositivos móviles -->
+    <title>Practica 4</title>
+    <!-- El título del documento, que aparece en la pestaña del navegador -->
+    <link rel="stylesheet" href="Style.css">
+    <!-- Vincula una hoja de estilos CSS externa al documento para aplicar estilos personalizados -->
+</head>
+
+<body>
+    <!-- El cuerpo del documento, que contiene el contenido visible de la página -->
+    <div class="card">
+        <!-- Contenedor para una tarjeta, que será volteable -->
+        <div class="card-content">
+            <!-- Contenido de la tarjeta que permite el efecto de volteo -->
+            <div class="card-face card-front"></div>
+            <!-- Cara frontal de la tarjeta -->
+            <div class="card-face card-back">Texto 1</div>
+            <!-- Cara posterior de la tarjeta con texto visible cuando se voltea -->
+        </div>
+    </div>
+
+    <div class="card">
+        <!-- Contenedor para una segunda tarjeta -->
+        <div class="card-content">
+            <div class="card-face card-front2"></div>
+            <!-- Cara frontal de la segunda tarjeta con una imagen diferente -->
+            <div class="card-face card-back">Texto 2</div>
+            <!-- Cara posterior de la segunda tarjeta -->
+        </div>
+    </div>
+
+    <div class="card">
+        <!-- Contenedor para una tercera tarjeta -->
+        <div class="card-content">
+            <div class="card-face card-front3"></div>
+            <!-- Cara frontal de la tercera tarjeta con otra imagen diferente -->
+            <div class="card-face card-back">Texto 3</div>
+            <!-- Cara posterior de la tercera tarjeta -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Vincula un archivo JavaScript externo para controlar la interacción de las tarjetas -->
+</body>
+<!-- Esta etiqueta cierra el <body>, que es donde termina el contenido visible de la página. -->
+</html>
+<!-- Esta etiqueta cierra el documento HTML. -->
